@@ -1,0 +1,11 @@
+[project]
+name = "portfolio-personale"
+version = "0.1.0"
+description = "Un semplice modo per generare il curriculum dinamicamente parte da un json con tutte le informazioni necessarie."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jinja2==3.1.4",
+    "markupsafe==3.0.2",
+    "ruff>=0.9.10",
+]
